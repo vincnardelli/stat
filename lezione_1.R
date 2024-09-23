@@ -87,6 +87,8 @@ data$numeri
 
 # Da pacchetto R
 data("mtcars")
+?mtcars
+
 data("USPersonalExpenditure")
 ?USPersonalExpenditure
 
@@ -98,6 +100,15 @@ str(Hitters)
 data("Smarket")
 summary(Smarket)
 str(Smarket)
+
+mean(Smarket$Today)
+
+min(Smarket$Today)
+max(Smarket$Today)
+
+
+median(Smarket$Today)
+summary(Smarket$Today)
 
 # Carico dati da Excel
 library(readxl)
